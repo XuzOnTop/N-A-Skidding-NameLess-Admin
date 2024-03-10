@@ -91,6 +91,7 @@
  Loopvoid = false
  Loopcuff = false
  loopgrab = false
+ loopfling5 = false
  Loopstand = false
  Looptornado = false
  Loopmute = false
