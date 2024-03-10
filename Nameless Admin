@@ -5886,7 +5886,7 @@ end
 	 local Player = getPlr(...)
 	 if Player ~= nil and not Admin[Player.UserId] then
 		 Admin[Player.UserId] = {Player = Player}
-		 ChatMessage("/w "..Player.Name.." [Krinckled's Admin] You've got admin, and their is other commands but they get tagged. Prefix: ';'")
+		 ChatMessage("/w "..Player.Name.." [Krinckled's Admin] You've got admin, and their is other commands but they get tagged and just a note, using some commands could break it and cause a rejoin. Prefix: ';'")
 		 wait(0.2)
 		 ChatMessage("/w "..Player.Name.." [Krinckled's Admin Commands] fling, fling2, fling5, bang, spinfling, unspinfling, fcd, fti, fpp, fireremotes, holdhat")
 		 ChatMessage("/w "..Player.Name.." [Krinckled's Admin] reset, commitoof, seizure, unseizure, unfling5, toolorbit, lay, fall, toolspin, hatspin, sit, joke, kanye, unbang")
