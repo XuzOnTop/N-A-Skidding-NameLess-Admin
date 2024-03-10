@@ -5888,8 +5888,8 @@ end
 		 Admin[Player.UserId] = {Player = Player}
 		 ChatMessage("/w "..Player.Name.." [Krinckled's Admin] You've got admin, and fling4 bypasses all anticheats. Prefix: ';'")
 		 wait(0.2)
-		 ChatMessage("/w "..Player.Name.." [Krinckled's Admin Commands] fling, fling2, fling4, unfling4, spinfling, unspinfling, fcd, fti, fpp, fireremotes, holdhat")
-		 ChatMessage("/w "..Player.Name.." reset, commitoof, seizure, unseizure, bang, unbang, toolorbit, lay, fall, toolspin, hatspin, sit, joke, kanye")
+		 ChatMessage("/w "..Player.Name.." [Krinckled's Admin Commands] fling, fling2, fling4, bang, spinfling, unspinfling, fcd, fti, fpp, fireremotes, holdhat")
+		 ChatMessage("/w "..Player.Name.." reset, commitoof, seizure, unseizure, unfling4, unbang, toolorbit, lay, fall, toolspin, hatspin, sit, joke, kanye")
 		 Notify({
 			 Description = "" .. Player.Name .. " has now been whitelisted to use commands";
 			 Title = "Krinckled's Admin";
