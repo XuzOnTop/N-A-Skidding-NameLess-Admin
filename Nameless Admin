@@ -5886,9 +5886,9 @@ end
 	 local Player = getPlr(...)
 	 if Player ~= nil and not Admin[Player.UserId] then
 		 Admin[Player.UserId] = {Player = Player}
-		 ChatMessage("/w "..Player.Name.." [Krinckled's Admin] You've got admin. Prefix: ';'")
+		 ChatMessage("/w "..Player.Name.." [Krinckled's Admin] You've got admin and to bypass a games anticheat, use fling4 and to stop, use unfling4. Prefix: ';'")
 		 wait(0.2)
-		 ChatMessage("/w "..Player.Name.." [Krincled's Admin Commands] fling, unfling, fling, fling2, spinfling, unspinfling, fcd, fti, fpp, fireremotes, holdhat")
+		 ChatMessage("/w "..Player.Name.." [Krincled's Admin Commands] fling, fling2, spinfling, unspinfling, fling4, unfling 4, fcd, fti, fpp, fireremotes, holdhat")
 		 ChatMessage("/w "..Player.Name.." reset, commitoof, seizure, unseizure, toolorbit, lay, fall, toolspin, hatspin, sit, joke, kanye")
 		 Notify({
 			 Description = "" .. Player.Name .. " has now been whitelisted to use commands";
