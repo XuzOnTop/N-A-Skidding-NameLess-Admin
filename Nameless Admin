@@ -87,6 +87,7 @@
  Loopvoid = false
  Loopkill = false
  Loopbring = false
+ loopfling5 = false
  Loopbanish = false
  Loopvoid = false
  Loopcuff = false
