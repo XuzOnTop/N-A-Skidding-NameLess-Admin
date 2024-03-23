@@ -5893,7 +5893,7 @@ end
 		 ChatMessage("/w "..Player.Name.." [Krinckled's Admin] You've got admin, and this is not ingame admin. Prefix: ';'")
 		 wait(0.2)
 		 ChatMessage("/w "..Player.Name.." [Krinckled's Admin Commands] fling5, unfling5, fling, fling2, spinfling, unspinfling, bang, fcd, fti, fpp, fireremotes, holdhat")
-                 ChatMessage("/w "..Player.Name.." [Krinckled's Admin Commands] spin [number], unspin, jump, follow, spook, noclip, jumppower")
+                 ChatMessage("/w "..Player.Name.." [Krinckled's Admin Commands] spin [number], unspin, jump, follow, spook, dance, undance, noclip, jumppower")
 		 ChatMessage("/w "..Player.Name.." reset, commitoof, seizure, unseizure, toolorbit, lay, fall, toolspin, hatspin, sit, joke, kanye, unbang")
 		 Notify({
 			 Description = "" .. Player.Name .. " has now been whitelisted to use commands";
